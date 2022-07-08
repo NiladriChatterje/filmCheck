@@ -69,35 +69,38 @@ const App = () => {
         fontWeight: '600',
         color:'white'
       }}>
-        <span style={{background: 'rgb(101, 101, 102)',
+        <span className="category-hover" 
+        style={{background: 'rgb(101, 101, 102)',
                       padding: '5px 50px',
                     borderRadius: '80px',
                     display:'flex',
                       justifyContent: 'center',
                     cursor: 'pointer',
                     boxShadow: '1px 2px 10px -5px black',
-                    hover: 'scale(1.05,1.05)'}}
+                    }}
         onClick={(e)=>
           setType('movie')}>Movie</span>
-        <span style={{background: 'rgb(101, 101, 102)',
+        <span className="category-hover" 
+        style={{background: 'rgb(101, 101, 102)',
                       padding: '5px 50px',
                       display:'flex',
                       justifyContent: 'center',
                     borderRadius: '80px',
                     cursor: 'pointer',
                     boxShadow: '1px 2px 10px -5px black',
-                    hover: 'scale(1.05,1.05)'}}
+                    }}
         onClick={(e)=>setType('series')}
         >Series
         </span>
-        <span style={{background: 'rgb(101, 101, 102)',
+        <span className="category-hover" 
+        style={{background: 'rgb(101, 101, 102)',
                       padding: '5px 50px',
                       display:'flex',
                       justifyContent: 'center',
                     borderRadius: '80px',
                     cursor: 'pointer',
                     boxShadow: '1px 2px 10px -5px black',
-                    hover: 'scale(1.05,1.05)'}}
+                    }}
         onClick={(e)=>setType('episode')}>Episode</span>
       </div>
    
